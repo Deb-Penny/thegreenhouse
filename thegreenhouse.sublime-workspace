@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pages#index.html.erb",
+			"settings":
+			{
+				"buffer_size": 14,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/deb/refactored-herb-garden/thegreenhouse/Gemfile.sublime-workspace",
+		"/Users/deb/refactored-herb-garden/thegreenhouse/pages#index.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/shared/_global_header.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/pages/presentation.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/application.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/shared/_global_footer.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/javascripts/application.js",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/core/mixins/_drawer.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/core/mixins/_forms.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/core/mixins/_buttons.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/core/mixins/_utilities.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/core/_badges.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/Gemfile",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/index.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/material-kit.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/pages/index.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/views/layouts/application.html.erb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/stylesheets/_gardenui.scss",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/controllers/pages_controller.rb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/assets/config/manifest.js",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/controllers/application_controller.rb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/config/routes.rb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/config/application.rb",
+		"/Users/deb/refactored-herb-garden/the-garden-rails/app/controllers/pages.rb",
+		"/Users/deb/refactored-herb-garden/the-garden-patch/_config.yml",
+		"/Users/deb/modo/modoui-rails/Gemfile",
+		"/Users/deb/modo/modoui-rails/config/spring.rb",
+		"/Users/deb/Documents/VirtualDJ/database.xml",
+		"/Users/deb/Music/_Serato_/MIDI/Xml/djm.xml"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pages#index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "thegreenhouse.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 397.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

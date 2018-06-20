@@ -1,0 +1,96 @@
+
+<div class="container-fluid">
+	<header class="row">
+	  	<h1 class="text-center col-lg-12">The Greenhouse App - Select, premium flowers for your garden</h1>
+	</header>
+	<div class="m-5">
+		<ul class="nav nav-tabs" id="nav-flowerlist-tab" role="tablist">
+		  <li class="nav-item">
+		    <a class="nav-link active" id="annuals-tab" data-toggle="tab" href="#annuals" role="tab" aria-controls="annuals" aria-selected="true">Annuals</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" id="perennials-tab" data-toggle="tab" href="#perennials" role="tab" aria-controls="perennials" aria-selected="false">Perennials</a>
+		  </li>
+		</ul>
+		<div class="tab-content mt-5" id="nav-flowerslist-content">
+			<div class="tab-pane fade show active" id="annuals" role="tabpanel" aria-labelledby="annuals-tab">
+				<div class="container">
+				  	<h2>Available Flowers</h2>
+					<table id="available_flowers_table" datatable="ng" class="table row-border" cellspacing="0" width="100%" aria-describedby="available_flowers_tables_info">
+				      	<thead>
+				        	<tr role="row">
+				        		<th class="sorting" tabindex="0">#</th>
+					          	<th class="sorting" aria-controls="available_flowers_table_info" aria-label="Flower name">Flower Name</th>
+					          	<th class="sorting" tabindex="0" aria-controls="available_flowers_table_info" aria-label="Seasonal type">Season Type</th>
+					          	<th class="sorting" tabindex="0" aria-controls="available_flowers_table_info" aria-label="Height">Height</th>
+					          	<th class="sorting" tabindex="0" aria-controls="available_flowers_table_info" aria-label="Diameter">Diameter</th>
+				          		<th class="sorting" tabindex="0" aria-controls="available_flowers_table_info" aria-label="Zone tolerance">Zone Tolerance</th>
+				        	</tr>
+				      	</thead>
+				      	<tbody>
+				        	<tr data-ng-repeat="flower in available_flowers_inv">
+				        		<td>{{flower.id}}</td>	
+						        <td>{{flower.name}}</td>
+						        <td>{{flower.type}}</td>
+						        <td>{{flower.height}}</td>
+						        <td>{{flower.diameter}}</td>
+						        <td>{{flower.zone}}</td>
+				        	</tr>
+						</tbody>
+					</table>
+				</div>
+			</div> <!-- end tab one -->
+		  	<div class="tab-pane fade" id="perennials" role="tabpanel" aria-labelledby="perennials-tab">
+		  		<div class="container">
+		  			<h2>Premium Perennials</h2>
+		  			<p>Select the perennials from the list that you would like to learn more about</p>
+		  			<div class="row">
+			  			<div class="col-5">
+					  		<label class="label" for="availableperennials">Available Perennials</label>                                
+							<select id="availableperennials" class="w-100" size="5" multiple ng-model="available" ng-options="flower as flower.name for flower in availablePerennials"></select>         
+						</div>
+						<div class="col-2">
+							<div class="text-center mt-5 pb-5 ">
+                                <input id="btnRight" class="text-center" type="button" value=" > "  ng-click="moveItem(available, availablePerennials, selectedPerennials)"/>
+                                <br/><br/>
+                                <input id="btnLeft" class="text-center" type="button" value=" < " ng-click="moveItem(selected, selectedPerennials, availablePerennials)"/>
+                            </div>
+						</div>
+						<div class="col-5">
+							<label class="text-success" for="selectedperennials">Selected Perennials</label>                                                    
+							<select id="selectedperennials" size="5" class="w-100" multiple ng-model="selected" ng-options="flower as flower.name for flower in selectedPerennials"></select>
+						</div>
+					</div>
+					<div>Selected Perennials: {{selectedPerennials}}</div>
+				    <div>Available Perennials: {{availablePerennials}}</div>
+				    <div>Selected: {{selected}}</div>
+				    <div>Available: {{available}}</div>
+				</div>
+		  	</div> <!-- end tab two -->
+		</div> <!-- end tab content -->
+	</div> <!-- end app controller wrapper -->
+</div> <!-- end fluid container -->
+
+<script>
+$(document).on("load, ready", function(){
+
+	$('#nav-flowerlist-tab a').on('click', function (e) {
+	  e.preventDefault()
+	  $(this).tab('show');
+	});
+
+    $('#available_flowers_table').dataTable({
+        paging: true,
+        ordering: true,
+        info: false,
+        autoWidth: true,
+        destroy: true,
+        pageLength: 5,
+        lengthMenu: false,
+        lengthChange: false
+    });
+
+});
+</script>
+
+

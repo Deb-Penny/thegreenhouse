@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="theGreenhouseApp">
+  <head>
+    <title>The Greenhouse - Premium flowers for your garden</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <%= stylesheet_link_tag    'application', media: 'all', '': 'reload' %>
+    <%= javascript_include_tag 'application', '': 'reload' %>
+  </head>
+
+  <body ng-controller="theGreenhouseController">
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+{
+    "flowers": [{
+            "id": "1",
+            "name": "petunia",
+            "type": "annual",
+            "height": "5 inches",
+            "diameter": "12 inches",
+            "zone": "US Zone 5"
+
+        },
+        {
+            "id": "2",
+            "name": "marigold",
+            "type": "annual",
+            "height": "3 inches",
+            "diameter": "5 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "3",
+            "name": "african daisy",
+            "type": "annual",
+            "height": "12 inches",
+            "diameter": "8 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "4",
+            "name": "snapdragon",
+            "type": "annual",
+            "height": "12 inches",
+            "diameter": "5 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "5",
+            "name": "cone flower",
+            "type": "annual",
+            "height": "24 inches",
+            "diameter": "12 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "6",
+            "name": "lisanthis",
+            "type": "annual",
+            "height": "8 inches",
+            "diameter": "5 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "7",
+            "name": "impatients",
+            "type": "annual",
+            "height": "5 inches",
+            "diameter": "5 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "8",
+            "name": "vinca",
+            "type": "annual",
+            "height": "2 inches",
+            "diameter": "12+ inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "9",
+            "name": "geranium",
+            "type": "annual",
+            "height": "12 inches",
+            "diameter": "6 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "10",
+            "name": "verbena",
+            "type": "annual",
+            "height": "7 inches",
+            "diameter": "7 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "11",
+            "name": "english lavendula",
+            "type": "annual",
+            "height": "12 inches",
+            "diameter": "12 inches",
+            "zone": "US Zone 5"
+        },
+        {
+            "id": "12",
+            "name": "portulaca",
+            "type": "annual",
+            "height": "12 inches",
+            "diameter": "8 inches",
+            "zone": "US Zone 5"
+        }
+    ]
+}
