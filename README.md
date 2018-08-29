@@ -4,7 +4,9 @@ Hello, this is an angular exercise I did to demonstrate using angular data attri
 
 Based on:
 
-* Ruby version 5
+* Ruby version 5.x
 
-* System dependencies: Angular
+* System dependencies: Angular 4, Bootstrap 4
+
+* Tech assets can be found in app/assets/
 
