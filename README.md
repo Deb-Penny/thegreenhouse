@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, this is an angular exercise I did to demonstrate using angular data attributes for tables and some larger pain points in UI development.
 
-Things you may want to cover:
+Based on:
 
-* Ruby version
+* Ruby version 5
 
-* System dependencies
+* System dependencies: Angular
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
